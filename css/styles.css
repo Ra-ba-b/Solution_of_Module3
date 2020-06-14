@@ -1,0 +1,130 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  border: 2px solid black;
+  background-color: #f6b319;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+
+
+
+.navbar-brand {
+  padding-top: 25px;
+
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+.container .jumbotron {
+      color: #fff;
+  background-color: #61122f;
+}
+
+
+#chicken-tile, #beef-tile, #sushi-tile {
+  height: 1000px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#chicken-tile p, #beef-tile p, #sushi-tile p {
+  
+  margin: 10px;
+  
+}
+#chicken-tile a, #beef-tile a, #sushi-tile a {
+  
+  padding-top: 20px;
+  padding-left: 10px;
+  text-decoration: none;
+  
+}
+@media (max-width: 576px){
+  #chicken-tile, #beef-tile, #sushi-tile{
+    height: auto;
+  }
+     
+}
+
+@media (min-width: 577px) and (max-width: 767.98px) { 
+  #chicken-tile, #beef-tile, #sushi-tile{
+    height: auto;
+  } 
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  #nav-list{
+    visibility: hidden;
+  }
+  #chicken-tile, #beef-tile, #sushi-tile{
+  height: auto;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #nav-list{
+    visibility: hidden;
+  }
+  #chicken-tile, #beef-tile, #sushi-tile{
+  height: auto;
+  }
+
+}
+    
+@media (min-width: 1200px) { 
+  #nav-list{
+    visibility: hidden;
+  }
+
+         
+}
